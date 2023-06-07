@@ -1,5 +1,5 @@
 {
-  "name": "@graphql-codegen/typescript-graphql-request-seperate-export",
+  "name": "@rmb/typescript-graphql-request-seperate-export",
   "version": "1.0.0",
   "description": "GraphQL Code Generator plugin for generating a ready-to-use SDK based on graphql-request and GraphQL operations",
   "repository": {
@@ -53,7 +53,8 @@
   },
   "publishConfig": {
     "directory": "dist",
-    "access": "public"
+    "access": "public",
+    "registry": "http://registry.m.jd.com/"
   },
   "typescript": {
     "definition": "dist/typings/index.d.ts"
